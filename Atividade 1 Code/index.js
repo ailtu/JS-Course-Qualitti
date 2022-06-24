@@ -2,7 +2,7 @@
 const nome = "Ailton";
 
 // 2- variável mutável se está chovendo ou não
-const vaiChover = true;
+var vaiChover = true;
 
 // 3- variável com data de nascimento
 const birth = "19/01/2002";
@@ -37,7 +37,7 @@ const aluno3 = {
   //dados do aluno
   nome: "Pepe",
   birth: "18/05/1999",
-  bio: "Acho que ta jogando algo na Steam"
+  bio: "Acho que esta jogando algo na Steam"
 };
 
 const aluna4 = {
@@ -50,12 +50,8 @@ const aluna4 = {
 // 10- multiplicando outra variável por outro número
 let j = 54 * 528;
 
-/* saída de dados
-começando por mim e alunos */
-console.log(dados);
-console.log(aluna);
-console.log(aluno3);
-console.log(aluna4);
+// saída de dados
+console.log(dados, aluna, aluna3, aluna4);
 
 // exibindo a lista numérica
 console.log("Lista Numérica: " + lNum);
