@@ -1,5 +1,6 @@
 // classe do automovel
 class Automovel {
+
   // construtor da classe
   constructor(nome, marca, modelo, paisFab) {
     this.nome = nome;
@@ -7,6 +8,7 @@ class Automovel {
     this.modelo = modelo;
     this.paisFab = paisFab;
   }
+
   // get que retorna os atributos dos automóveis
   getAutomovel() {
     return `> É um ${this.nome}, da marca ${this.marca} modelo ${this.modelo} e fabricado no ${this.paisFab}`;
